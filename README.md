@@ -5,8 +5,8 @@
 
 ```php
 $user = new App\Models\User();
-$user->password = Hash::make('the-password-of-choice');
-$user->email = 'the-email@example.com';
-$user->name = 'My Name';
+$user->password = Hash::make('abc123');
+$user->email = 'admin@correo.com';
+$user->name = 'admin';
 $user->save();
 ```
